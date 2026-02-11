@@ -1,4 +1,6 @@
 name: Deploy Project
+permissions:
+  contents: read
 on: [push, workflow_dispatch]
 jobs:
   test:
