@@ -1,5 +1,7 @@
 name: Handle issues
 on: issues
+permissions:
+  contents: read
 jobs:
   info:
     runs-on: ubuntu-latest
