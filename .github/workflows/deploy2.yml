@@ -1,5 +1,7 @@
 name: Deploy Exercise 2
 on: [push, workflow_dispatch]
+permissions:
+  contents: read
 jobs:
   lint:
     runs-on: ubuntu-latest
